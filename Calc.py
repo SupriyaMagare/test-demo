@@ -1,14 +1,11 @@
-def add():
-    print("result 1 is ")
+def add(a,b):
+    return a+b
 
-def sub():
-    print("result 2 is ")
+def sub(a,b):
+    return a-b
 
-def main():
-    print("in calc main")
-    add()
-    sub()
+def mul(a,b):
+    return a*b
 
-
-if __name__== "__main()__":
-    main()
+def div(a,b):
+    return a/b
